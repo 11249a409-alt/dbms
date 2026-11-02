@@ -138,31 +138,7 @@ The total rises by 6000 due to the committed deposit of 5000 and addition
 of 1000. The 4000 transfer does not change the total.
 */
 
-/* STUDENT PRACTICE
-1. Create FinanceLab with an InnoDB Account table.
-2. Insert four accounts with unique IDs and positive balances.
-3. Create a read-only audit user and verify its grants.
-4. Revoke SELECT from the audit user and test the denied query.
-5. Deposit 2500 and COMMIT; verify the balance.
-6. Withdraw 1000 and ROLLBACK; verify no change.
-7. Use two SAVEPOINTs and roll back only the last update.
-8. Transfer 1500 and verify total funds remain constant.
-9. Attempt a withdrawal greater than the available balance.
-10. Explain why GRANT should not be mixed into a transaction for rollback.
-*/
 
-/* VIVA VOCE
-1. DCL controls access permissions to database objects.
-2. GRANT assigns privileges; REVOKE withdraws privileges.
-3. TCL controls transaction boundaries and rollback points.
-4. COMMIT makes current transaction changes permanent.
-5. ROLLBACK cancels uncommitted changes.
-6. SAVEPOINT marks a position for partial rollback.
-7. ROLLBACK TO SAVEPOINT reverses changes after that marker.
-8. ACID means Atomicity, Consistency, Isolation and Durability.
-9. InnoDB supports transactions and rollback.
-10. A teller with only SELECT permission cannot UPDATE account balances.
-*/
 
 /* RESULT:
 The BankDB database was created, DCL permissions were assigned, verified
