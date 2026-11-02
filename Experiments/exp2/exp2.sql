@@ -137,14 +137,3 @@ ORDER BY Emp_ID;
 
 SHOW COLUMNS FROM Employee;
 
--- Practice exercises (run separately after completing the experiment):
--- 1. Insert employee 210 with valid details.
--- 2. Change the city of employee 204 to Chennai.
--- 3. Increase Finance salary by 5%.
--- 4. List employees whose salary is over 40000.
--- 5. Add a Phone column as VARCHAR(15).
--- 6. Populate the Phone field for employee 201.
--- 7. Display all employees in IT ordered by salary.
--- 8. Delete employee 210 using a specific ID.
--- 9. Display employees with NULL email.
--- 10. Explain why UPDATE without WHERE is dangerous.
